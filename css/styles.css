@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root{
+    --color-principal: #F0A83E;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Estilos del top banner */
+
+.top-banner{
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 0.64rem;
+}
+
+.top-banner p{
+    padding: 0.5em;
+    margin-left: 10%;
+}
+
+.top-banner ul{
+    display: flex;
+    margin-right: 10%;
+}
+
+.top-banner ul li{
+    padding: 0.5em;
+}
+
+/* Estilos de la navbar */
+
+nav{
+    display: flex;
+    background-color: #F0A83E;
+    color: white;
+    justify-content: space-between;
+    font-size: 0.81rem;
+}
+
+nav ul{
+    display: flex;
+    margin-right: 5%;
+    align-items: center;
+}
+
+nav ul li{
+    padding: 1em;
+}
+
+nav img{
+    margin-left: 5%;
+    padding: 1em;
+}
+
+/* Ver cómo editar los íconos y cómo separar un poco el texto del ícono
+i{
+    color: transparent;
+    border: 1px solid white;
+} */
+
+/* Estilos de la section hero */
+
+.hero{
+    display: flex;
+    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40vh;
+    justify-content: flex-end;
+}
+
+.hero h2{
+    background-color: white;
+    padding: 0.5em;
+    border-radius: .5em;
+    font-weight: 400;
+}
+
+.hero h3{
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0.5rem;
+}
+
+.cta{
+    background-color: var(--color-principal);
+    font-size: 1rem;
+    color: white;
+    padding: 1rem;
+    border: solid 1px var(--color-principal);
+    border-radius: 0.25rem;
+}
+
+.hero-text-button{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.huella{
+    border: 2px solid black;
+}
+
