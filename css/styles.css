@@ -311,3 +311,13 @@ i{
     color: white;
     padding: .25rem
 }
+
+.icons-text-right{
+    display: flex;
+    padding: 1.25rem;
+}
+
+.icons-text-right div{
+    margin-left: 1.5rem;
+    align-self: center;
+}
