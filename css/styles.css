@@ -2,6 +2,7 @@
 
 :root{
     --color-principal: #F0A83E;
+    --color-texto-secundario: #3C2313;
 }
 
 * {
@@ -11,7 +12,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-/* Estilos del top banner */
+/* Estilos del TOP BANNER */
 
 .top-banner{
     display: flex;
@@ -36,7 +37,7 @@
     padding: 0.5em;
 }
 
-/* Estilos de la navbar */
+/* Estilos de la NAVBAR */
 
 nav{
     display: flex;
@@ -67,7 +68,7 @@ i{
     border: 1px solid white;
 } */
 
-/* Estilos de la section hero */
+/* Estilos de la section HERO */
 
 .hero{
     display: flex;
@@ -109,7 +110,36 @@ i{
     justify-content: center;
 }
 
-.huella{
-    border: 2px solid black;
+/* Estilo de la sección DESTACADOS */
+
+.destacados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+.destacados-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paw{
+    margin: 1.5rem;
+}
+
+.destacados-links h2{
+    color: var(--color-texto-secundario);
+    font-size: 2.5rem;
+}
+
+.destacados-enlaces{
+    margin: 1.5rem;
+    
+}
+
+.destacados-enlaces a{
+    text-decoration: none;
+    color: #666666;
+    padding: 0.85rem;
+}
